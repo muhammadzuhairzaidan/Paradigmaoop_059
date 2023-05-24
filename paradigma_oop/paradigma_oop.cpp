@@ -18,3 +18,6 @@ public:
 		return a + b;
 	}
 };
+
+
+class pelajar : public orang 

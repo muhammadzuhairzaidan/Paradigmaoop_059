@@ -22,7 +22,7 @@ public:
 	string nama;
 	vector<pasien*> daftar_pasien;
 
-    dokter(string pNama) :nama(pNama) {
+dokter(string pNama) :nama(pNama) {
         cout << "dokter \"" << nama << "\" ada\n";
     }
     ~dokter() {
@@ -35,3 +35,4 @@ public:
     void tambahPasien(pasien*);
     void cetakPasien();
 };
+
